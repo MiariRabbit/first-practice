@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一次用vscode就是说</title>
+</head>
+<body>
+     <h1>救命我要转行，救救我</h1>
+     <h2>呜呜呜</h2>
+       <p>什么<br>啊</p>
+       <p>呜呜呜</p>
+     <h1>水花61分伊戈达拉制胜抢断 西决勇士再胜开拓者总分2-0</h1>
+     <h4>数据统计：水花兄弟合砍61分</h4>
+       <p>库里22投11中，三分14投4中，罚球11罚全中得到37分8篮板8助攻，职业生涯季后赛得分30+次数来到35次，超过哈登排名现役第3位，仅次于詹姆斯和杜兰特。</p>
+       <p>库里22投11中，三分14投4中，罚球11罚全中得到37分8篮板8助攻，职业生涯季后赛得分30+次数来到35次，超过哈登排名现役第3位，仅次于詹姆斯和杜兰特。</p>
+       <p>汤普森22投8中，三分8投4中得到24分3篮板2助攻，德拉蒙德-格林得到16分10篮板7助攻5盖帽，凯文-鲁尼得到14分7篮板2助攻，今天勇士有7名替补出场。</p>
+     <h4>兄弟对决升级：小库里给哥哥造成压力</h4>
+       <p>库里兄弟是NBA历史上第一对在分区决赛相遇的兄弟。在西决第1场中，小库里没有给哥哥造成压力，他出场19分钟，7投1中只得到3分3篮板2助攻，在场期间输掉10分。</p>
+       <p>但在西决第2场中，小库里攻防两端都打出杰出的表现，全场送出4次抢断，包括直接抢断自己的哥哥库里，在防守端给库里造成了极大的困扰。</p>
+     <p>作者: pink老师<br>2019-8-8</p>
+     <strong>加粗</strong>
+     <em>倾斜</em>
+     <del>删除</del>
+     <ins>下划线</ins>
+     <div>什么玩意</div>
+     <div>单独占一行</div>
+     <span id="WOXUE">我学我学</span>
+     <span>这个不换行</span><br>
+     <img src="‪fu8zxk94phj61.jpg" alt="这是啥"><br>
+     <img src="fu8zxk94phj61.jpg" title="什么玩意救救我"/><br>
+     <img src="fu8zxk94phj61.jpg" width="500" height="100" border="15"><br>
+     <img src="img/EklcfdfU0AEqZdv.jpg" width="500" title="事实">
+     <img src="E:\user\图片\EklcfdfU0AEqZdv.jpg" width="500"><br>
+     <img src="https://gitee.com/static/images/logo-black.svg?t=158106664">
+     <a href="http:\\www.baidu.com" target="_self">原窗口打开腾讯</a> 
+     <a href="http:\\www.baidu.com" target="_blank">新窗口腾讯</a> 
+     <a href="创建页面练习.html" target="_blank">再打开一个</a>
+     <a href="#">空</a>
+     <a href="QQ图片20210517220328.jpg">下载文件</a>
+     <a href="http:\\www.baidu.com"><img src="QQ图片20210517220328.jpg"</a>
+     <a href="#WOXUE">跳转到我学我学</a><br>
+     <!-- 快捷注释 ctrl+/ -->
+     空&nbsp;&nbsp;&nbsp;格
+     小于号&lt;<br>
+     大鱼号&gt;
+
+
+</body>
+</html>
