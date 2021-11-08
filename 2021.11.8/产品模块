@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            padding: 0 auto;
+            width: 298px;
+            margin: 0 auto;
+        }
+
+        .s1 {
+            padding: 0 25px;
+            font-size: 14px;
+            margin-top: 30px;
+            height: 70px;
+        }
+
+        .s2 {
+            padding: 0 25px;
+            font-size: 12px;
+            margin-top: 15px;
+            color: gray;
+        }
+
+        .s3 {
+            padding: 0 25px;
+            font-size: 14px;
+            margin-top: 15px;
+            color: gray;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            width: 170px;
+        }
+
+        .s4 {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="img/box.jpg" alt="" width="298px">
+        <P class="s1">快递牛，整体不错蓝牙可以说秒连。红米给力</P>
+        <div class="s2">
+            来自于 117384232 的评价
+        </div>
+        <div class="s3">
+            <a href="#">AirDots真无线蓝...</a>
+            <span> | </span>
+            <span class="s4">99.9元</span>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
