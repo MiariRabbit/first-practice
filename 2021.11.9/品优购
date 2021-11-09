@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0: color:#666666;
+        }
+
+        .nav {
+            background-color: #fff;
+            margin: 100px auto;
+            width: 248px;
+            height: 163px;
+            border: 1px solid #ccc;
+            color: #666666;
+
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 14px;
+            height: 32px;
+            line-height: 32px;
+            border-bottom: 1px dotted #ccc;
+            padding-left: 15px;
+
+        }
+
+        ul {
+            margin-top: 7px;
+            padding: 0;
+            padding-left: 10px;
+        }
+
+        ul li {
+            list-style: none;
+            line-height: 23px;
+            margin-left: 0px;
+        }
+
+        a {
+            color: #666666;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+
+        /
+    </style>
+</head>
+
+<body>
+    <!-- 只能说回去改改。 -->
+    <div class="nav">
+        <h4>品优购快报</h4>
+        <ul>
+            <li><a href="#">【特惠】不要靠近游戏本</a></li>
+            <li><a href="#">【悲报】会变得不幸</a></li>
+            <li><a href="#">【救命】它好重好重好重</a></li>
+            <li><a href="#">【不愿】再带它去图书馆</a></li>
+            <li><a href="#">【谢谢】ipad救我狗命</a></li>
+        </ul>
+
+
+    </div>
+
+</body>
+
+</html>
