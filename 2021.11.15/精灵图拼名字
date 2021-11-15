@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            float: left;
+            background: url(images/abcd.jpg) no-repeat;
+        }
+
+        .m {
+            width: 136px;
+            height: 110px;
+            background-position: -111px -276px;
+        }
+
+        .e {
+            width: 95px;
+            height: 108px;
+            background-position: -484px -8px;
+        }
+
+        .n {
+            width: 113px;
+            height: 112px;
+            background-position: -255px -275px;
+        }
+
+        .g {
+            width: 104px;
+            height: 108px;
+            background-position: -98px -141px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <span class="m"></span>
+    <span class="e"></span>
+    <span class="n"></span>
+    <span class="g"></span>
+
+</body>
+
+</html>
