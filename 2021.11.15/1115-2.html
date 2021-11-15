@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钱难挣屎难吃</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?1lv3na');
+            src: url('fonts/icomoon.eot?1lv3na#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?1lv3na') format('truetype'),
+                url('fonts/icomoon.woff?1lv3na') format('woff'),
+                url('fonts/icomoon.svg?1lv3na#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        .w {
+            margin: 0 auto;
+        }
+
+        .box {
+            position: relative;
+            width: 200px;
+            height: 35px;
+            border: 1px solid red;
+        }
+
+        .box::after {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            margin-top: -7px;
+            font-family: 'icomoon';
+            content: '';
+            color: red;
+        }
+
+        .tudou {
+            height: 320px;
+            width: 444px;
+
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .tudou::before {
+            content: '';
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3) url(images/arr.png) no-repeat center;
+
+        }
+
+        .tudou:hover::before {
+            display: block;
+        }
+
+        .tudou img {
+            width: 444px;
+            height: 320px;
+        }
+
+        .re {
+            filter: blur(5px);
+            transition: filter 0.5s ease 0.1s;
+
+        }
+
+        .re:hover {
+            filter: blur(0);
+
+        }
+
+        .bar {
+            display: inline-block;
+            height: 15px;
+            width: 150px;
+            background-color: white;
+            margin: 0 auto;
+            border: 1px solid red;
+            border-radius: 55px;
+            padding: 1px;
+            box-sizing: border-box;
+        }
+
+        .bar-in {
+            width: 50%;
+            height: 100%;
+            background-color: red;
+            transition: all 0.5s;
+
+        }
+
+        .bar:hover .bar-in {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box w"></div>
+    <div class="tudou w">
+        <img src="images/tudou.jpg" alt="">
+    </div>
+    <img class="re" src="images/tudou.jpg" alt=""><br>
+    <div class="bar w">
+        <div class="bar-in"></div>
+    </div>
+
+</body>
+
+</html>
