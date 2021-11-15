@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .tb-promo {
+            position: relative;
+            background-image: url(images/tb.jpg);
+            width: 520px;
+            height: 280px;
+            margin: 50px auto;
+        }
+
+        a {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            text-decoration: none;
+            color: white;
+            width: 20px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            line-height: 30px;
+            text-align: center;
+            font-weight: 1000;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 0 15px 15px 0;
+
+
+        }
+
+        .next {
+            right: 0;
+            border-radius: 15px 0 0 15px;
+        }
+
+        .promo-nav {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: white;
+            list-style: none;
+            border-radius: 50%;
+            margin: 3px;
+        }
+
+        .promo-nav .clike {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tb-promo">
+        <a href="#" class="prev">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <div>
+            <ul class="promo-nav">
+                <li></li>
+                <li class="clike"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
