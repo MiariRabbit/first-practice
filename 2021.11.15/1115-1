@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wenzi {
+            width: 100px;
+            height: 100px;
+            background-color: paleturquoise;
+            margin: 0 auto;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        ul {
+
+            margin-left: 15px;
+            list-style: none;
+        }
+
+        li {
+            margin-left: -5px;
+            float: left;
+            width: 100px;
+            height: 100px;
+            border: 5px solid paleturquoise;
+        }
+
+        li:hover {
+            position: relative;
+            border-color: palevioletred;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="cursor: pointer;">鼠标样式</div>
+    <div style="cursor: not-allowed;">鼠标样式</div>
+    <div style="cursor: wait;">鼠标样式</div>
+    <div style="cursor: default;">鼠标样式</div>
+    <div style="cursor: move;">鼠标样式</div>
+    <input type="text" value="取消丑丑框框" style="outline: none;">
+    <textarea name="" id="" cols="30" rows="10" style="resize: none; outline: none;">我是文本域小警察，不许拖动文本域</textarea><br>
+    <img src="images/abcd.jpg" alt="" width="100px" style="vertical-align: middle;">中线对齐
+    <img src="images/ldh.jpg" alt=""
+        style="display: inline-block; vertical-align: middle; border: 1px solid orangered;">←好丑
+    <div class="wenzi">
+        啥啊啥啊这啥玩意啊呜呜呜呜呜呜钱难挣屎难吃
+    </div>
+    <div class="lianghangwenzi">
+        啥啊啥啊这啥玩意啊呜呜呜呜呜呜钱难挣屎难吃
+    </div>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <div class="wenzi2"
+        style="width: 200px; height: 100px; background-color: paleturquoise; margin-top: 150px; margin-left: 15px; font-size: 10px;padding:20px">
+        <img src="images/img.png" alt="" style="float: left; height: 100px;">你说啥我听不见听不见听不见
+    </div>
+    
+</body>
+
+</html>
