@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anime1 {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-1000px);
+            }
+
+            50% {
+                transform: translate(-1000px, 500px);
+            }
+
+            75% {
+                transform: translate(0, 500px);
+            }
+
+            100% {
+                transform: translatee(0, 0);
+            }
+        }
+
+        @keyframes bowen {}
+
+        .nani {
+            width: 200px;
+            height: 200px;
+            background-color: paleturquoise;
+            transform: translate(100px, 100px);
+            transform-origin: 200px 200px;
+            transition: all 1s;
+        }
+
+        .nani:hover {
+            width: 200px;
+            height: 200px;
+            background-color: paleturquoise;
+            transform: translate(100px, 100px) rotate(360deg);
+        }
+
+        .wodetian {
+            width: 200px;
+            height: 200px;
+            background-color: palevioletred;
+            transform: translate(100px, 100px);
+            overflow: hidden;
+        }
+
+        .wodetian::before {
+            content: "";
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: palegreen;
+            transform: rotate(90deg);
+            transition: all 0.5s;
+
+            transform-origin: 0 200px;
+
+
+        }
+
+        .wodetian:hover::before {
+            transform: rotate(0);
+
+        }
+
+        .wodedi {
+            width: 200px;
+            height: 200px;
+            background-color: palegoldenrod;
+            transform: scale(2, 2) translate(100px, 100px);
+            transition: all 1s;
+        }
+
+        .wodedi:hover {
+
+            background-color: paleturquoise;
+            transform: translate(100px, 100px) scale(1);
+            transform-origin: 300px;
+        }
+
+        .pic1 {
+            display: inline-block;
+            overflow: hidden;
+
+        }
+
+        .pic1 img {
+            transition: all 0.5s;
+        }
+
+        .pic1:hover img {
+            transform: scale(1.2);
+        }
+
+        .fenye {
+            margin-left: 500px;
+            margin-top: 50px;
+
+        }
+
+        .fenye li {
+            list-style: none;
+            float: left;
+        }
+
+        .fenye a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: rgb(77, 156, 149);
+            text-decoration: none;
+            box-shadow: 0 0 0 1px rgb(77, 156, 149);
+            margin-right: 20px;
+            border-radius: 50px;
+            transition: all 0.3s;
+        }
+
+        .fenye a:hover {
+            transform: scale(1.3);
+        }
+
+        .diandi {
+            margin-top: 500px;
+        }
+
+        .pic2 {
+
+            margin-top: 50px;
+            animation-name: anime1;
+            animation-duration: 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nani"></div>
+    <div class="wodetian"> </div>
+    <div class="wodedi"></div>
+    <div style="width: 500px; height: 350px;"></div>
+    <div class="pic1"><img src="fu8zxk94phj61.jpg" alt="" width="400px"></div>
+    <div class="fenye">
+        <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+        </ul>
+    </div>
+    <div class="pic2"><img src="QQ图片20210517220328.jpg" alt=""></div>
+
+    <div class="diandi">____</div>
+</body>
+
+</html>
